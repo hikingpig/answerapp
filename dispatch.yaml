@@ -1,0 +1,7 @@
+dispatch:
+  - url: "*/static/*"
+    service: static
+  - url: "*/api/*"
+    service: api
+  - url: "*/*"
+    service: web

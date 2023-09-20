@@ -1,0 +1,3 @@
+runtime: go115
+app_engine_apis: true
+service: web

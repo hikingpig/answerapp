@@ -1,0 +1,6 @@
+runtime: go115  # or another supported version
+service: api
+app_engine_apis: true
+handlers:
+- url: /.*
+  script: auto
